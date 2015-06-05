@@ -1,7 +1,7 @@
-[Gradients]({{ git.io-URL }})  [![Circle CI](https://circleci.com/gh/{{ git.username }}/gradients/tree/master.svg?style=svg)](https://circleci.com/gh/{{ git.username }}/gradients/tree/master)
+[Gradients](http://skyglobal.github.io/gradients)  [![Circle CI](https://circleci.com/gh/skyglobal/gradients/tree/master.svg?style=svg)](https://circleci.com/gh/skyglobal/gradients/tree/master)
 ========================
 
-> Please take a look at the [demo page]({{ git.io-URL }})
+> Please take a look at the [demo page](http://skyglobal.github.io/gradients)
 
 ## Quick-Start
 
