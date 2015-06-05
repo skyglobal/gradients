@@ -1,0 +1,18 @@
+{
+    "name": "gradients",
+    "homepage": "{{ git.HTTPS-URL }}",
+    "authors": [
+        "{{ git.author }} <{{ git.email }}>"
+    ],
+    "description": "Gradients",
+    "main": "dist",
+    "license": "BSD3",
+    "ignore": [
+        "**/*",
+        "!dist/**/*",
+        "!src/**/*"
+    ],
+    "devDependencies": {
+        "bskyb-core": "~0.0.4"
+    }
+}
