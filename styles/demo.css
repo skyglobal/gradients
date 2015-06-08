@@ -308,3 +308,6 @@ code {
 
 .demo-hex {
   margin-bottom: 10px; }
+
+html, body {
+  height: 100%; }
