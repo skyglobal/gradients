@@ -1,19 +1,5 @@
-@import "bourbon/bourbon";
-@import '../../node_modules/core/src/styles/core';
-
-$polaris-bg-default: #FFFFFF, #E1E0E4, #FFFFFF;
-$polaris-bg-sky-atlantic: #5090B8, #194F73;
-$polaris-bg-sky-living: #96A8B5, #768D9D;
-$polaris-bg-sky-sports: #132774, #041456;
-$polaris-bg-sky-movies: #8F2679, #67135A;
-$polaris-bg-sky-arts: #EC0015, #48055B;
-$polaris-bg-sky-news: #153073, #061B55;
-$polaris-bg-sky-1: #0D77BD, #005392;
-$polaris-bg-sky-box-sets: #7F0C2D, #5B1139;
-
-@mixin page-background-gradient($info) {
-  @include radial-gradient(nth($info, 1), nth($info, 2), $fallback: nth($info, length($info)));
-}
+@import '_mixins';
+@import '_constants';
 
 .polaris-bg-default {
     @include page-background-gradient($polaris-bg-default);
