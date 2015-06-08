@@ -18,19 +18,6 @@ or alternatively, **Via Bower**
  * Include Sass: `@import 'bower_components/gradients/src/styles/gradients';`
  * Include JS: `var gradients = require('../../bower_components/gradients/src/scripts/gradients');`
 
-
-#### Dependencies
-
-This component relies on other components and you must also include these in your project.
-
- * [Dependency Name](https://github.com/DependencyName)
-
-#### Developer Notes
-
-Choose a type of Gradients component and copy the relevant html.
- * [example](demo/_includes/example.html)
- * [example](demo/_includes/example.html),
-
 ## Contribution
 
 Components depends on collaboration between developers. Contributions of any size are actively encouraged.
