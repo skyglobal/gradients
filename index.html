@@ -35,7 +35,7 @@
 <h2>Polaris Page Backgrounds</h2>
 
 <div class="demo-colour-block">
-    <div class="polaris-page-background cushioned">Default Page Background</div>
+    <div class="polaris-page-background black cushioned">Default Page Background</div>
 </div>
 
 <div class="demo-colour-block">
@@ -78,6 +78,10 @@
         return function() {
             document.body.className = "";
             document.body.classList.add(element.classList[0]);
+
+            if (element.classList.contains('white')) {
+                document.body.classList.add('white');
+            }
         }
     }
 
