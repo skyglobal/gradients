@@ -40,6 +40,10 @@
         return function() {
             document.body.className = "";
             document.body.classList.add(element.classList[0]);
+
+            if (element.classList.contains('white')) {
+                document.body.classList.add('white');
+            }
         }
     }
 
