@@ -76,7 +76,8 @@
 <script>
     function makeClickHander(element) {
         return function() {
-            return document.body.classList.add(element.classList[0]);
+            document.body.className = "";
+            document.body.classList.add(element.classList[0]);
         }
     }
 
