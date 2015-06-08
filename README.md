@@ -8,8 +8,8 @@
 Include the Gradients assets in your project either as **Static Resources**
 
 ```html
-<link rel="stylesheet" href="http:// WEB ADDRESS /gradients/0.0.1/styles/gradients.min.css" />
-<script type="text/javascript" src="http:// WEB ADDRESS /gradients/0.0.1/scripts/gradients.min.js"></script>
+<link rel="stylesheet" href="http:// WEB ADDRESS /gradients/0.1.0/styles/gradients.min.css" />
+<script type="text/javascript" src="http:// WEB ADDRESS /gradients/0.1.0/scripts/gradients.min.js"></script>
 ```
 
 or alternatively, **Via Bower**
