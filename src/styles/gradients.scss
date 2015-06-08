@@ -1,52 +1,52 @@
 @import "bourbon/bourbon";
 @import '../../node_modules/core/src/styles/core';
 
-$polaris-page-background: #FFFFFF, #E1E0E4, #FFFFFF;
-$sky-atlantic-page-background: #5090B8, #194F73;
-$sky-living-page-background: #96A8B5, #768D9D;
-$sky-sports-page-background: #132774, #041456;
-$sky-movies-page-background: #8F2679, #67135A;
-$sky-arts-page-background: #EC0015, #48055B;
-$sky-news-page-background: #153073, #061B55;
-$sky-1-page-background: #0D77BD, #005392;
-$sky-box-sets-page-background: #7F0C2D, #5B1139;
+$polaris-bg-default: #FFFFFF, #E1E0E4, #FFFFFF;
+$polaris-bg-sky-atlantic: #5090B8, #194F73;
+$polaris-bg-sky-living: #96A8B5, #768D9D;
+$polaris-bg-sky-sports: #132774, #041456;
+$polaris-bg-sky-movies: #8F2679, #67135A;
+$polaris-bg-sky-arts: #EC0015, #48055B;
+$polaris-bg-sky-news: #153073, #061B55;
+$polaris-bg-sky-1: #0D77BD, #005392;
+$polaris-bg-sky-box-sets: #7F0C2D, #5B1139;
 
 @mixin page-background-gradient($info) {
   @include radial-gradient(nth($info, 1), nth($info, 2), $fallback: nth($info, length($info)));
 }
 
-.polaris-page-background {
-    @include page-background-gradient($polaris-page-background);
+.polaris-bg-default {
+    @include page-background-gradient($polaris-bg-default);
 }
 
-.sky-atlantic-page-background {
-    @include page-background-gradient($sky-atlantic-page-background);
+.polaris-bg-sky-atlantic {
+    @include page-background-gradient($polaris-bg-sky-atlantic);
 }
 
-.sky-living-page-background {
-    @include page-background-gradient($sky-living-page-background);
+.polaris-bg-sky-living  {
+    @include page-background-gradient($polaris-bg-sky-living);
 }
 
-.sky-sports-page-background {
-    @include page-background-gradient($sky-sports-page-background);
+.polaris-bg-sky-sports {
+    @include page-background-gradient($polaris-bg-sky-sports);
 }
 
-.sky-movies-page-background {
-    @include page-background-gradient($sky-movies-page-background);
+.polaris-bg-sky-movies {
+    @include page-background-gradient($polaris-bg-sky-movies);
 }
 
-.sky-arts-page-background {
-    @include page-background-gradient($sky-arts-page-background);
+.polaris-bg-sky-arts {
+    @include page-background-gradient($polaris-bg-sky-arts);
 }
 
-.sky-news-page-background {
-    @include page-background-gradient($sky-news-page-background);
+.polaris-bg-sky-news {
+    @include page-background-gradient($polaris-bg-sky-news);
 }
 
-.sky-1-page-background {
-    @include page-background-gradient($sky-1-page-background);
+.polaris-bg-sky-1 {
+    @include page-background-gradient($polaris-bg-sky-1);
 }
 
-.sky-box-sets-page-background {
-    @include page-background-gradient($sky-box-sets-page-background);
+.polaris-bg-sky-box-sets {
+    @include page-background-gradient($polaris-bg-sky-box-sets);
 }
