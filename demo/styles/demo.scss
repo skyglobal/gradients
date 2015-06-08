@@ -1,3 +1,7 @@
 @import 'base';
 
 @import '../../node_modules/core/demo/styles/modules/_colours';
+
+html, body {
+    height: 100%;
+}

@@ -33,3 +33,20 @@
 <div class="demo-container">
     {{> _includes/**/*.html }}
 </div>
+
+<script>
+    function makeClickHander(element) {
+        return function() {
+            return document.body.classList.add(element.classList[0]);
+        }
+    }
+
+    var colourBlocks = document.querySelectorAll('.demo-colour-block > div');
+
+    for (var i = 0; i < colourBlocks.length; i++) {
+        var element = colourBlocks[i];
+
+        element.addEventListener('click', makeClickHander(element));
+    }
+
+</script>

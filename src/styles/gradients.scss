@@ -15,7 +15,6 @@ $sky-box-sets-page-background: #7F0C2D, #5B1139;
   @include radial-gradient(nth($info, 1), nth($info, 2), $fallback: nth($info, length($info)));
 }
 
-
 .polaris-page-background {
     @include page-background-gradient($polaris-page-background);
 }
