@@ -31,6 +31,7 @@ To see how to build this component locally, read the [contribution guidelines](C
 
 ## Browser Support
 
-http://caniuse.com/#feat=css-gradients
+IE9 is supported through SVG. IE8 will show a solid colour.
 
-For those unsupported on the caniuse link, there are solid colour fallbacks. 
+For other browsers see:
+http://caniuse.com/#feat=css-gradients
