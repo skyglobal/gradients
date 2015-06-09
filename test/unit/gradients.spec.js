@@ -13,10 +13,4 @@ describe('gradients module can ', function () {
 
     });
 
-    it('version is attached', function () {
-
-        expect(new gradients().version).toBe('0.1.1');
-
-    });
-
 });
