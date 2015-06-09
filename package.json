@@ -22,6 +22,7 @@
     "core": "git+ssh://git@github.com/skyglobal/core.git#v0.0.4",
     "jshint": "^2.6.3",
     "node-bourbon": "^4.2.3",
+    "polyfill": "git://github.com/skyglobal/polyfill.git#v0.3.2",
     "web-caddy": "2.0.0-beta.3"
   },
   "author": "Ross Warren"
