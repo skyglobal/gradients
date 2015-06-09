@@ -12,7 +12,7 @@ Include the SASS via NPM (use the latest version number)
 npm install --save-dev git+ssh://git@github.com/skyglobal/gradients.git#v0.1.0
 ```
 
-You can then require in the sass file from your node modules folder
+You can then require in the SASS file from your node modules folder
 
 ```scss
 import '../node_modules/gradients/src/styles/gradients.scss';
