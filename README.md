@@ -5,18 +5,23 @@
 
 ## Quick-Start
 
-Include the Gradients assets in your project either as **Static Resources**
+Include the SASS via NPM (use the latest version number)
 
-```html
-<link rel="stylesheet" href="http:// WEB ADDRESS /gradients/0.1.0/styles/gradients.min.css" />
-<script type="text/javascript" src="http:// WEB ADDRESS /gradients/0.1.0/scripts/gradients.min.js"></script>
+```sh
+npm install --save-dev git+ssh://git@github.com/skyglobal/gradients.git#v0.1.0
 ```
+
+You can then require in the sass file from your node modules folder
+
+```scss
+import '../node_modules/gradients/src/styles/gradients.scss';
+```
+
 
 or alternatively, **Via Bower**
 
  * Run: `bower install --save-dev gradients`
  * Include Sass: `@import 'bower_components/gradients/src/styles/gradients';`
- * Include JS: `var gradients = require('../../bower_components/gradients/src/scripts/gradients');`
 
 ## Contribution
 
