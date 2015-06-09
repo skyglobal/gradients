@@ -26,11 +26,6 @@ To see how to build this component locally, read the [contribution guidelines](C
 
 ## Browser Support
 
-(To support IE8 please add [ployfill](https://github.com/skyglobal/polyfill) to your site)
+http://caniuse.com/#feat=css-gradients
 
- * IE9 +
- * Safari 7 +
- * Latest Firefox
- * Latest Chrome
- * Latest Mobile Safari
- * Latest Mobile Chrome
+For those unsupported on the caniuse link, there are solid colour fallbacks. 
