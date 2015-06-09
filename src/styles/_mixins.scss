@@ -1,5 +1,5 @@
-@import "bourbon/bourbon";
-
 @mixin page-background-gradient($info) {
-  @include radial-gradient(nth($info, 1), nth($info, 2), $fallback: nth($info, length($info)));
+    background-color: nth($info, length($info));
+    background-image: -webkit-radial-gradient(nth($info, 1), nth($info, 2));
+    background-image: radial-gradient(nth($info, 1), nth($info, 2));
 }
