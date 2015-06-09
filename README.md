@@ -5,6 +5,7 @@
 
 ## Quick-Start
 
+### NPM
 Include the SASS via NPM (use the latest version number)
 
 ```sh
@@ -17,8 +18,7 @@ You can then require in the sass file from your node modules folder
 import '../node_modules/gradients/src/styles/gradients.scss';
 ```
 
-
-or alternatively, **Via Bower**
+### Bower
 
  * Run: `bower install --save-dev gradients`
  * Include Sass: `@import 'bower_components/gradients/src/styles/gradients';`
