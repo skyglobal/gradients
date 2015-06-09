@@ -1,0 +1,28 @@
+{
+  "name": "gradients",
+  "version": "0.1.0",
+  "description": "Example package.json. Feel free to copy!",
+  "main": "src/scripts/gradients.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:skyglobal/gradients.git"
+  },
+  "scripts": {
+    "copy": "caddy copy",
+    "build": "caddy build",
+    "bump": "caddy bump",
+    "release": "npm test && caddy release",
+    "report": "caddy serve test/coverage/phantomjs/",
+    "start": "caddy copy && caddy build -dev && caddy serve",
+    "tdd": "caddy test tdd",
+    "test": "jshint src && caddy build && caddy test"
+  },
+  "devDependencies": {
+    "browserify-istanbul": "^0.2.1",
+    "core": "git+ssh://git@github.com/skyglobal/core.git#v0.0.4",
+    "jshint": "^2.6.3",
+    "node-bourbon": "^4.2.3",
+    "web-caddy": "2.0.0-beta.3"
+  },
+  "author": "Ross Warren"
+}
