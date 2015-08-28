@@ -691,7 +691,8 @@ Main.prototype.write = function(args){
 //example export
 module.exports = Main;
 },{"./utils/version.js":13}],13:[function(require,module,exports){
-module.exports = "0.1.2";
+module.exports = "0.1.3";
+
 },{}],"demo":[function(require,module,exports){
 //if you need to intialise anything to get the demo to work...
 
