@@ -1,6 +1,6 @@
 {
   "name": "gradients",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Pre-rolled gradients for use across the Sky estate",
   "main": "src/scripts/gradients.js",
   "repository": {
