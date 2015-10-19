@@ -1,5 +1,8 @@
 # Change Log
+## 0.1.4
 
+  * Adding 'Dark default' style
+  
 ## 0.1.3
 
   * Adding 'Account' style
