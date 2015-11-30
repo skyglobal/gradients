@@ -8,8 +8,10 @@
 ### NPM
 Include the SASS via NPM (use the latest version number)
 
+( WARNING: The build works correctly only with Node version <= 0.12.X !!! )
+
 ```sh
-npm install --save-dev git+ssh://git@github.com/skyglobal/gradients.git#v0.1.0
+npm install --save-dev git+ssh://git@github.com/skyglobal/gradients.git#v0.1.8
 ```
 
 You can then require in the SASS file from your node modules folder
