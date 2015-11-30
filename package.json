@@ -11,7 +11,7 @@
     "copy": "caddy copy",
     "build": "caddy build",
     "bump": "caddy bump",
-    "release": "caddy release",
+    "release": "npm test && caddy release",
     "report": "caddy serve test/coverage/phantomjs/",
     "start": "caddy copy && caddy build -dev && caddy serve",
     "tdd": "caddy test tdd",
