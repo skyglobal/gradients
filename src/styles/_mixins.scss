@@ -1,7 +1,7 @@
 @mixin page-background-gradient($info) {
     background-color: nth($info, length($info));
-    background-image: -webkit-radial-gradient(nth($info, 1), nth($info, 2));
-    background-image: radial-gradient(nth($info, 1), nth($info, 2));
+    background-image: linear-gradient(to top, nth($info, 1), nth($info, 2));
+    background-image: -webkit-linear-gradient(90deg, nth($info, 1), nth($info, 2));
 }
 
 @mixin mobile {
